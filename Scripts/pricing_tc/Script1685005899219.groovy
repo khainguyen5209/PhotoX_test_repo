@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://khainguyen5209.github.io/photoX/')
 
 WebUI.click(findTestObject('Object Repository/Page_PhotoX/a_Pricing'))
 
-WebUI.verifyElementText(findTestObject('Page_PhotoX/div_Join Us'), 'Join Us 1')
+WebUI.verifyElementText(findTestObject('Page_PhotoX/div_Join Us'), 'Join Us')
 
 WebUI.verifyElementVisible(findTestObject('Page_PhotoX/div_Join Us'), FailureHandling.STOP_ON_FAILURE)
 
