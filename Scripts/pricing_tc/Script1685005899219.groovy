@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://khainguyen5209.github.io/photoX/')
 
 WebUI.click(findTestObject('Object Repository/Page_PhotoX/a_Pricing'))
